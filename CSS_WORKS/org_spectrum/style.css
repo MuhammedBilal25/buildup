@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+}
+.parent1{
+    width: 200px;
+    height:100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box{
+    border: 1px solid black;
+    width: 30px;
+    height: 90px;
+    float:left;
+    margin-left:8px;
+}
+.parent1 :nth-child(1){
+background-color: aqua;    
+}
+.parent1 :nth-child(2){
+    background-color: azure;
+}
+.parent1 :nth-child(3){
+    background-color: darkcyan;
+}
+.parent1 :nth-child(4){
+    background-color: rgb(17, 44, 223);
+}
+.parent1 :nth-child(5){
+    background-color: rgb(2, 255, 255);
+}
+.parent2{
+    width: 280px;
+    height:100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.parent2 :nth-child(1){
+    background-color: yellow;
+}
+.parent2 :nth-child(2){
+    background-color: yellowgreen;
+}
+.parent2 :nth-child(3){
+    background-color: blueviolet;
+}
+.parent2 :nth-child(4){
+    background-color: rgb(255, 0, 0);
+}
+.parent2 :nth-child(5){
+    background-color: rgb(144, 201, 12);
+}
+.parent2 :nth-child(6){
+    background-color: rgb(111, 255, 0);
+}
+.parent2 :nth-child(7){
+    background-color: rgb(67, 207, 12);
+}
+.parent3{
+    width: 360px;
+    height:100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.parent3 :nth-child(4){
+    background-color: rgb(156, 241, 96);
+}
+.parent3 :nth-child(1){
+    background-color: rgb(233, 233, 197);
+}
+.parent3 :nth-child(2){
+    background-color: rgb(50, 205, 205);
+}
+.parent3 :nth-child(3){
+    background-color: rgb(160, 124, 194);
+}
+.parent3 :nth-child(5){
+    background-color: rgb(201, 195, 12);
+}
+.parent3 :nth-child(6){
+    background-color: rgb(211, 80, 80);
+}
+.parent3 :nth-child(7){
+    background-color: rgb(194, 37, 37);
+}
+.parent3 :nth-child(8){
+    background-color: rgb(164, 17, 17);
+}
+.parent3 :nth-child(9){
+    background-color: rgb(87, 15, 15);
+}
+body{
+    background-color: black;
+}
+

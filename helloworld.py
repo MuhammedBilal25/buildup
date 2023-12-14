@@ -1,0 +1,1 @@
+print("THIS IS A TEXT FROM VS CODE")

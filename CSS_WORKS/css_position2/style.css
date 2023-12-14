@@ -1,0 +1,46 @@
+.parent{
+    height: 300px;
+    width: 50%;
+    position: relative;
+    background-color: burlywood;
+    margin-left:auto ;
+    margin-right:auto ;
+}
+.child{
+    height: 50px;
+    width:20%;
+    position: absolute;
+    background-color: aqua;
+}
+.parent :nth-child(1){
+    top: 40%;
+}
+.parent :nth-child(2){
+    top:auto;
+    left:40%;
+}
+.parent :nth-child(3){
+    left:40%;
+    bottom:0;
+}
+.parent :nth-child(4){
+    top:40%;
+    left:80%;
+}
+.fixed{
+    width: 10%;
+    height: 50px;
+    background-color: chartreuse;
+    position: fixed;
+    right: 0;
+}
+.sticky{
+    width: 80px;
+    height: 80px;
+    background-color: coral;
+    position: sticky;
+    top: 15%;
+}
+
+
+

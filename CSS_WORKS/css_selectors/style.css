@@ -1,0 +1,21 @@
+body{
+    background-color:rgba(40, 40, 55, 0.359) ;
+}
+h1{
+    text-align: center;
+    background-color: rgb(16, 12, 229);
+    text-decoration: underline;
+    text-decoration-color: black;
+    color: black;
+}
+#h12{
+color: yellowgreen;
+text-decoration: none;
+}
+.text-success{
+    color:green;
+
+}
+.text-underline{
+    text-decoration: underline;
+}

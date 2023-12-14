@@ -1,0 +1,28 @@
+.parent{
+    height: 300px;
+    width: 100%;
+}
+.child{
+    border: solid black 2px;
+    height: 290px;
+    width: 22%;
+    float: left;
+}
+.blue{
+    background-color: rgb(16, 16, 227);
+}
+.red{
+    background-color: rgb(241, 35, 12);
+}
+.yellow{
+    background-color: rgb(234, 230, 16);
+}
+.maroon{
+    background-color: rgb(240, 20, 20);
+}
+.color{
+    background-color: beige;
+}
+.color1{
+    background-color: burlywood;
+}

@@ -1,0 +1,24 @@
+.row{
+    width: 60%;
+    height: 400px;
+    background-color: aqua;
+    display: flex;/*display content left*/ 
+    /* justify-content: space-between;space will come in between */
+    /* justify-content: space-around;space will come at the end */
+    justify-content: space-evenly;/*eqully divided space*/
+    /* justify-content: flex-end;moved to the end of the line */
+    /* align-items: flex-end;align items at the bottom */
+    align-items: center; /*align items at the center*/
+}   
+.col{
+    width: 20%;
+    height: 20%;
+    background-color: blueviolet;
+    border: solid black 1px;
+}
+body{
+    height: 100vh;/*view port height (body tag set in vh)*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

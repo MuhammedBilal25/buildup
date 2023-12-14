@@ -1,0 +1,27 @@
+# # company="LUMINAR 2 s"
+# # print(company.casefold())
+# name="lbilal"
+# num="34"
+# bad="jr32@"
+# # print(name.capitalize())
+# # print(company.lower())
+# # print(name.upper())
+# # print(company.isalpha())
+# # print(name.isalpha())
+# # print(company.isdigit())
+# # print(num.isdigit())
+# # print(company.isalnum())
+# # print(bad.isalnum())
+# # print(name.count("l"))
+# # print(name.strip("l"))
+# # print(name.lstrip("l"))
+# # print(company.split())
+# print(sorted(name,reverse=True))
+# print(name.startswith("lb"))
+# print(num.startswith("lb"))
+# print(bad.endswith("@"))
+# # print(num.endswith("@"))
+# print(name.index("b"))
+# print(name.index("la"))
+# print(name.isascii())
+# print("tt".join(num))
