@@ -29,7 +29,11 @@ event_data= {"id":8,"name":"onamcele","client":"anandhu","date":"12-12-2024","pl
 # update
 # id=1,budget=100000
 
-id=1
+# id=1
+# event=[e for e in events if e.get("id")==id][0]
+# event["budget"]=100000
+
+id=4
 event=[e for e in events if e.get("id")==id][0]
-event["budget"]=100000
+events.remove(event)
 print(events)

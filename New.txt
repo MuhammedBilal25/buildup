@@ -1,2 +1,0 @@
-print(" my name is muhammed bilal")
-print("i am from kollam \t i graduated BTECH in 2023")

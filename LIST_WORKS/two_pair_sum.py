@@ -1,4 +1,4 @@
-list=[3,4,5,2,6]
+list=[1,3,4,5,2,6,8,7,9]
 sum=int(input("ENTER THE SUM : "))
 list.sort()
 # for i in range(0,len(list)-1):
